@@ -33,7 +33,7 @@ def worker(word):
 
 if __name__ == '__main__':
 
-    word_list_filename = r"/home/leo/code/perso/0xf.at/dictionary.txt"
+    word_list_filename = r"dictionary.txt"
     url = r"https://www.0xf.at/play/21"
 #     inp = r"taesthre;zgdalee;durretbis;iorcsecen;lielfy;fancovre;edphunia;nultxiosa;teidnatpuo;omdry"
     words = get_words_from_site(url)
